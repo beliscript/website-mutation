@@ -1,0 +1,24 @@
+CRITICAL - 2022-10-08 00:11:51 --> Call to undefined method App\Models\UserModel::restore
+in SYSTEMPATH/Model.php on line 774.
+ 1 APPPATH/Controllers/UserController.php(208): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\UserController->restore()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-08 00:12:04 --> Call to undefined method App\Models\UserModel::restore
+in SYSTEMPATH/Model.php on line 774.
+ 1 APPPATH/Controllers/UserController.php(209): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\UserController->restore()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-08 00:12:06 --> Call to undefined method App\Models\UserModel::restore
+in SYSTEMPATH/Model.php on line 774.
+ 1 APPPATH/Controllers/UserController.php(209): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\UserController->restore()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
